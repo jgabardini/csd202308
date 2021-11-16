@@ -2,8 +2,8 @@
     "scripts": {
         "test": "jest --watch --env='jsdom'",
         "test-once": "jest --env='jsdom'",
-        "start": "parcel codebreaker.html",
-        "build": "parcel build codebreaker.html --public-url ./",
+        "start": "parcel index.html",
+        "build": "parcel build index.html --public-url ./",
         "clear_jest": "jest --clearCache"
     },
     "dependencies": {

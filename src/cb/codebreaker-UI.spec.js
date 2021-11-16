@@ -3,7 +3,7 @@ import fs from "fs";
 describe("codebreaker UI", () => {
 
   beforeAll(() => {
-      document.body.innerHTML = fs.readFileSync("codebreaker.html", "utf8");
+      document.body.innerHTML = fs.readFileSync("index.html", "utf8");
       require("../cb/presenter");
   })
 

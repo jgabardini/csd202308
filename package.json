@@ -3,8 +3,7 @@
         "test": "jest --watch --env='jsdom'",
         "test-once": "jest --env='jsdom'",
         "start": "parcel index.html",
-        "build": "parcel build index.html --public-url ./",
-        "clear_jest": "jest --clearCache"
+        "build": "parcel build index.html --public-url ./"
     },
     "dependencies": {
       "@babel/core": "^7.15.4",

@@ -3,7 +3,8 @@
         "test": "jest --watch --env='jsdom'",
         "test-once": "jest --env='jsdom'",
         "start": "parcel codebreaker.html",
-        "build": "parcel build codebreaker.html --public-url ./"
+        "build": "parcel build codebreaker.html --public-url ./",
+        "clear_jest": "jest --clearCache"
     },
     "dependencies": {
       "@babel/core": "^7.15.4",

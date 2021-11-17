@@ -27,5 +27,10 @@ describe("codebreaker", () => {
         cb.adivinar('1678')
         expect(cb.obtenerPistas()).toEqual('! - - -')
     })
+    it("Si 2do nro está en posición correcta devuelve !", () => {
+        const cb = new CodeBreaker('1234')
+        cb.adivinar('0278')
+        expect(cb.obtenerPistas()).toEqual('! - - -')
+    })
 
 })

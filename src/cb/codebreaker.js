@@ -12,8 +12,10 @@ class CodeBreaker {
         
         this.pista = '- - - -'
 
-        if (this.codigo[0] == numero[0]) {
-            this.pista = '! - - -'
+        for(let i=0; i<4; i++) {
+            if (this.codigo[i] == numero[i]) {
+                this.pista = '! - - -'
+            }
         }
     }
     ganoElJuego() {

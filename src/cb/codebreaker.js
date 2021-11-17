@@ -10,12 +10,15 @@ class CodeBreaker {
     adivinar(numero) {
         this.gano = (this.codigo == numero)
         
-        this.pista = '- - - -'
+        this.pista = ''
 
         for(let i=0; i<4; i++) {
             if (this.codigo[i] == numero[i]) {
-                this.pista = '! - - -'
+                this.pista += '!'
             }
+        }
+        if (this.pista == '') {
+            this.pista = 'No hay pistas'
         }
     }
     ganoElJuego() {

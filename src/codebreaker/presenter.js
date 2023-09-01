@@ -1,4 +1,4 @@
-import CodeBreaker from "/src/codebreaker/codebreaker";
+import CodeBreaker from "./codebreaker";
 
 const resultado = document.querySelector("#resultado");
 

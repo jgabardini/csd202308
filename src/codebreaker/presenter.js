@@ -1,4 +1,12 @@
-import CodeBreaker from "./codebreaker";
+// import CodeBreaker from "./codebreaker";
+class CodeBreaker{
+  constructor(clave) {
+    this.clave = clave
+  }
+  obtenerPistas() {
+    return '- -'
+  }
+}
 
 const resultado = document.querySelector("#resultado");
 

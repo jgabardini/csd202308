@@ -6,10 +6,13 @@
         "build": "parcel build index.html"
     },
     "dependencies": {
-      "@babel/core": "^7.15.4",
-      "babel-jest": "^27.1.0",
-      "jest": "^27.1.0",
-      "parcel": "^2.9.3",
-      "parcel-bundler": "^1.12.5"
+        "@babel/core": "^7.15.4",
+        "babel-jest": "^29.6.4",
+        "jest": "^27.1.0",
+        "parcel": "^2.9.3",
+        "parcel-bundler": "^1.12.5"
+    },
+    "devDependencies": {
+        "@parcel/babel-preset-env": "^2.9.3"
     }
 }

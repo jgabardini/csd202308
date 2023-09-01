@@ -2,7 +2,7 @@ version: '3'
 
 services:
   csd-service:
-    container_name: csd-container
+    container_name: csd-2023
     build: .
     image: csd-image
     tty: true

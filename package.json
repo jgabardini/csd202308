@@ -1,7 +1,7 @@
 {
     "scripts": {
         "test": "jest --watchAll --env='jsdom'",
-        "test-once": "jest --env='jsdom'",
+        "test-once": "jest --env='jsdom' --verbose",
         "start": "parcel index.html",
         "build": "parcel build index.html --public-url ./"
     },
